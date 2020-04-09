@@ -4,12 +4,13 @@
     <title>Davidcantu</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+  <div id="flex-content-container">
   <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -55,5 +56,45 @@
   </div>
 </nav>
     <%= yield %>
+    </div>
+    <div id="footer">
+    <div class="container">
+    <div class="row">
+    <div class="col-12 col-sm-3">
+      <b>Blank link</b>
+      <br />
+      <%= link_to 'blank', '#'%>
+      <br />
+      <%= link_to 'blank', '#' %>
+    </div>
+    <div class="col-12 col-sm-3">
+      <b><u>About</u></b>
+      <br />
+      <a href="
+      https://legalethicstexas.com/Downloads/Texas-Lawyers-Creed/Texas_Lawyers_Creed.aspx
+      " target="_blank">Texas Lawyers Creed</a>
+      <br />
+      <a href="https://www.texasbar.com/AM/Template.cfm?Section=Ethics_Resources&Template=/CM/ContentDisplay.cfm&ContentID=30311" target="_blank">A Mandate for Professionalism</a>
+      <br />
+      <%= link_to 'Privacy Policy', '#' %>
+
+      </div>
+    <div class="col-12 col-sm-3">
+      <b><u>Contact</u></b>
+      <br />
+      <a href="mailto:drcantu88@gmail.com target="_top">drcantu88@gmail.com</a>
+      <br />
+      <a href="tel:9569849245">956-984-9245</a>
+      <u></u>
+      <br />
+      McAllen, Texas 78501
+    </div>
+    <div class="col-12 col-sm-3">
+      <b><u>Social</u></b>
+    </div>
+  </div>      
+  <br />
+    </div>
+  </div>
   </body>
 </html>
