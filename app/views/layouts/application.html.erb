@@ -10,6 +10,50 @@
   </head>
 
   <body>
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">David R. Cantu</a>
+  <p class="navbar-subbrand" href="#">Attorney at Law</p>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Civil Rights
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Discrimination</a>
+          <a class="dropdown-item" href="#">Excessive Force</a>
+          <a class="dropdown-item" href="#">Cruel and Unusual Punishment</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Crimial Defense
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Juvenile Crimes</a>
+          <a class="dropdown-item" href="#">State Crimes</a>
+          <a class="dropdown-item" href="#">Federal Crimes</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Injury
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Auto Collisions</a>
+          <a class="dropdown-item" href="#">Truck Accidents</a>
+          <a class="dropdown-item" href="#">Premises Liability (slip and falls)</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
     <%= yield %>
   </body>
 </html>
