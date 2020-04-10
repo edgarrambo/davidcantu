@@ -7,4 +7,10 @@ class LawsController < ApplicationController
     
     def show
     end
+
+    def criminaldefense
+    end
+
+    def injury
+    end
 end
