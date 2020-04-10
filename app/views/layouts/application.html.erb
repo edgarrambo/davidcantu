@@ -31,6 +31,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Discrimination</a>
+
           <a class="dropdown-item" href="#">Excessive Force</a>
           <a class="dropdown-item" href="#">Cruel and Unusual Punishment</a>
       <li class="nav-item dropdown">
@@ -61,11 +62,11 @@
     <div class="container">
     <div class="row">
     <div class="col-12 col-sm-3">
-      <b>Blank link</b>
+    <%= link_to 'Home', root_path %>
+    <br />
+      <%= link_to 'Discrimination', new_law_path %>
       <br />
-      <%= link_to 'blank', '#'%>
-      <br />
-      <%= link_to 'blank', '#' %>
+      <%= link_to 'Criminal Defense', root_path %>
     </div>
     <div class="col-12 col-sm-3">
       <b><u>About</u></b>
@@ -82,7 +83,7 @@
     <div class="col-12 col-sm-3">
       <b><u>Contact</u></b>
       <br />
-      <a href="mailto:drcantu88@gmail.com target="_top">drcantu88@gmail.com</a>
+      <a href="mailto:davidr@cantulawfirm.net target="_top">davidr@cantulawfirm.net</a>
       <br />
       <a href="tel:9569849245">956-984-9245</a>
       <u></u>
