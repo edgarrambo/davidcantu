@@ -13,4 +13,7 @@ class LawsController < ApplicationController
 
     def injury
     end
+
+    def civilright
+    end
 end

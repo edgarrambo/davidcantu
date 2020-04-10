@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :laws 
   get 'criminaldefense', to: 'laws#criminaldefense'
   get 'injury', to: 'laws#injury'
+  get 'civilright', to: 'laws#civilright'
+
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
