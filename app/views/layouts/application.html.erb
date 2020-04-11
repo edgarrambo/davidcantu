@@ -4,8 +4,8 @@
     <title>Davidcantu</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/ebb4fbda58.js" crossorigin="anonymous"></script>
+     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
@@ -51,9 +51,16 @@
         <%= link_to 'Truck Accidents', injury_path, class: 'dropdown-item' %>
         <%= link_to 'Premises Liability(slip and falls)', injury_path, class: 'dropdown-item' %>
         </div>
+        
       </li>
     </ul>
+
   </div>
+  <a class="contactnavbar" href="mailto:davidr@cantulawfirm.net"target=_top>Email</a>
+  <a class="contactnavbar" href="tel:9569849245">956-984-9245</a>
+
+
+
 </nav>
     <%= yield %>
     </div>
@@ -78,13 +85,12 @@
       <br />
       <a href="https://www.texasbar.com/AM/Template.cfm?Section=Ethics_Resources&Template=/CM/ContentDisplay.cfm&ContentID=30311" target="_blank">A Mandate for Professionalism</a>
       <br />
-      <%= link_to 'Privacy Policy', '#' %>
 
       </div>
     <div class="col-12 col-sm-3">
       <b><u>Contact</u></b>
       <br />
-      <a href="mailto:davidr@cantulawfirm.net target="_top">davidr@cantulawfirm.net</a>
+      <a href="mailto:davidr@cantulawfirm.net"target=_top>davidr@cantulawfirm.net</a>
       <br />
       <a href="tel:9569849245">956-984-9245</a>
       <u></u>
@@ -93,6 +99,18 @@
     </div>
     <div class="col-12 col-sm-3">
       <b><u>Social</u></b>
+      <br />
+      <br />
+      <%= link_to 'http://linkedin.com/in/david-r-cantu-91363861' do %>
+      <span class="fa fa-linkedin-square fa-2x social-button"></span>
+      <% end %>
+      <%= link_to href="mailto:davidr@cantulawfirm.net" do %>
+      <span class="far fa-envelope fa-2x social-button"></span>
+      <% end %>
+      <%= link_to href="tel:9569849245" do %>
+      <span class="fas fa-phone fa-2x social-button"></span>
+      <% end %>
+      
     </div>
   </div>      
   <br />
