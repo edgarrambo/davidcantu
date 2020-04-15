@@ -16,4 +16,7 @@ class LawsController < ApplicationController
 
     def civilright
     end
+
+    def misc
+    end
 end

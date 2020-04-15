@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'criminaldefense', to: 'laws#criminaldefense'
   get 'injury', to: 'laws#injury'
   get 'civilright', to: 'laws#civilright'
+  get 'misc', to: 'laws#misc'
 
 
 
